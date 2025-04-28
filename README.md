@@ -104,13 +104,6 @@ Following are individual contributions in the divided work -
 
 ----------X----------X----------
 
-********** WEBPAGE LINK **********
-
-Below is the link to the webpage, where the assignment has been hosted:
-<LINK>
-
-----------X----------X----------
-
 ********** LINKS TO DATASETS **********
 
 Below are the links to the datasets that have been used in the testing of the implementation of the algorithms.
