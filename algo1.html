@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Algorithm 1</title>
+  <link rel="icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+    <hr class="style-seven  style-seven:before">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"> Efficient Algorithms for Densest Subgraph Discovery</h1>
+            <div class="is-size-5 publication-authors">
+              
+              <span class="author-block">
+                YixiangFang, </span>
+                <span class="author-block">
+                  KaiqiangYu, </span>
+                  <span class="author-block">
+                    ReynoldCheng,
+                  </span>
+                  <span class="author-block">
+                    LaksV.S.Lakshmanan, </span>
+                    <span class="author-block">
+                      XueminLin </span>
+                  </div>
+                 
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Guangzhou University, China, The University of New South Wales, Australia, Zhejiang Lab, China,
+                      The University of HongKong, China, The University of British Columbia, Canada
+                    
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                    <span class="link-block">
+                      <a href="https://www.vldb.org/pvldb/vol12/p1719-fang.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  
+                  <span class="link-block">
+                    <a href="https://github.com/arjunt7/DAA_ASSIGNMENT_2/blob/main/ALGO_1.cpp" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="style-seven  style-seven:before">
+
+  
+<hr class="style-seven  style-seven:before">
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Densest subgraph discovery (DSD) is a fundamental problem in graph mining. It has been studied for decades, and is widely used in various areas, including network science, biological analysis, and graph databases. Given a graph G, DSD aims to find a subgraph D of G with the highest density (e.g., the number of edges over the number of vertices in D). Because DSD is difficult to solve, we propose a new solution paradigm in this paper. Our main observation is that the densest subgraph can be accurately found through a k-core (a kind of dense subgraph of G), with theoretical guarantees. Based on this intuition, we develop efficient exact and approximation solutions for DSD. Moreover, our solutions are able to find the densest subgraphs for a wide range of graph density definitions, including clique-based- and general pattern-based density. We have performed extensive experimental evaluation on both real and synthetic datasets. Our results show that our algorithms are up to four orders of magnitude faster than existing approaches.
+
+
+          </p>
+        </div>
+        <br>
+        <h2 class="title is-3">complexity: O(n⋅( 
+          h−1
+          d−1
+          ​
+           )+(n∣Λ∣+min(n,∣Λ∣) 
+          3)logn)</h2>
+        <p>n is the number of vertices, d is the maximum degree, and  Λ is the set of (h−1) clique instances
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="style-seven  style-seven:before">
+<div class="container" style="margin-top: 70px;">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <h1>Performance of Algorithms on h-Clique Densest Subgraph Problem</h1>
+        
+          <h3>Dataset: Netscience (Number of Nodes: 1589
+            Number of Edges: 2742
+            )</h3>
+        
+          <p><strong>h = 3:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 20</li>
+            <li>h-clique density: 57</li>
+            <li>No. of h-cliques: 1140</li>
+            <li>kmax: 19</li>
+            <li>Algorithm 1 runtime: 0.736s</li>
+            <li>Core-decomposition runtime: 0.722s</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.027s</li>
+          </ul>
+        
+          <p><strong>h = 4:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 20</li>
+            <li>h-clique density: 242.5</li>
+            <li>No. of h-cliques: 4845</li>
+            <li>kmax: 19</li>
+            <li>Algorithm 1 runtime: 1.764s</li>
+            <li>Core-decomposition runtime: 0.0s</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.305s</li>
+          </ul>
+        
+          <p><strong>h = 5:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 20</li>
+            <li>h-clique density: 775.2</li>
+            <li>No. of h-cliques: 15504</li>
+            <li>kmax: 19</li>
+            <li>Algorithm 1 runtime: 5.148s</li>
+            <li>Core-decomposition runtime: 0.0s</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 1.790s</li>
+          </ul>
+        
+          <p><strong>h = 6:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 20</li>
+            <li>h-clique density: 1938</li>
+            <li>No. of h-cliques: 38760</li>
+            <li>kmax: 19</li>
+            <li>Algorithm 1 runtime: 16.045s</li>
+            <li>Core-decomposition runtime: 0.0s</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 7.475s</li>
+          </ul>
+        
+          <h3>Dataset: SSCA (Number of Nodes: 1024
+            Number of Edges: 15733
+            )</h3>
+        
+          <p><strong>h = 3:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 20</li>
+            <li>h-clique density: 12.35</li>
+            <li>No. of h-cliques: 247</li>
+            <li>kmax: 9</li>
+            <li>Algorithm 1 runtime: 0.820s</li>
+            <li>Core-decomposition runtime: 0.394s</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.045s</li>
+          </ul>
+        
+          <p><strong>h = 4:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 40</li>
+            <li>h-clique density: 21.05</li>
+            <li>No. of h-cliques: 1263</li>
+            <li>kmax: 9</li>
+            <li>Algorithm 1 runtime: 1.743s</li>
+            <li>Core-decomposition runtime: (data not available)</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.134s</li>
+          </ul>
+        
+          <p><strong>h = 5:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 110</li>
+            <li>h-clique density: 25.2</li>
+            <li>No. of h-cliques: 15504</li>
+            <li>kmax: 9</li>
+            <li>Algorithm 1 runtime: 3.064s</li>
+            <li>Core-decomposition runtime: (data not available)</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.329s</li>
+          </ul>
+        
+          <p><strong>h = 6:</strong></p>
+          <ul>
+            <li>No. of vertices in densest subgraph: 110</li>
+            <li>h-clique density: 21</li>
+            <li>No. of h-cliques: 38760</li>
+            <li>kmax: 9</li>
+            <li>Algorithm 1 runtime: 3.698s</li>
+            <li>Core-decomposition runtime: (data not available)</li>
+            <li>Algorithm 4 (without core-decomposition) runtime: 0.398s</li>
+          </ul>
+        
+          <h3>Dataset: bio-DM-HT (Number of Nodes: 2989
+            Number of Edges: 4660
+            )</h3>
+        
+            <p><strong>h = 3:</strong></p>
+            <ul>
+              <li>No. of vertices in densest subgraph: 0</li>
+              <li>h-clique density: 0</li>
+              <li>No. of h-cliques: 0</li>
+              <li>kmax: 16</li>
+              <li>Algorithm 1 runtime: 0.001s</li>
+              <li>Core-decomposition runtime: 0.024s</li>
+              <li>Algorithm 4 (without core-decomposition) runtime: 0.001s</li>
+            </ul>
+            
+            <p><strong>h = 4:</strong></p>
+            <ul>
+              <li>No. of vertices in densest subgraph: 0</li>
+              <li>h-clique density: 0</li>
+              <li>No. of h-cliques: 0</li>
+              <li>kmax: 16</li>
+              <li>Algorithm 1 runtime: 0.003s</li>
+              <li>Core-decomposition runtime: (data not available)</li>
+              <li>Algorithm 4 (without core-decomposition) runtime: 0.001s</li>
+            </ul>
+            
+            <p><strong>h = 5:</strong></p>
+            <ul>
+              <li>No. of vertices in densest subgraph: 0</li>
+              <li>h-clique density: 0</li>
+              <li>No. of h-cliques: 0</li>
+              <li>kmax: 16</li>
+              <li>Algorithm 1 runtime: 0.004s</li>
+              <li>Core-decomposition runtime: (data not available)</li>
+              <li>Algorithm 4 (without core-decomposition) runtime: 0.002s</li>
+            </ul>
+            
+            <p><strong>h = 6:</strong></p>
+            <ul>
+              <li>No. of vertices in densest subgraph: 0</li>
+              <li>h-clique density: 0</li>
+              <li>No. of h-cliques: 0</li>
+              <li>kmax: 16</li>
+              <li>Algorithm 1 runtime: 0.009s</li>
+              <li>Core-decomposition runtime: (data not available)</li>
+              <li>Algorithm 4 (without core-decomposition) runtime: 0.004s</li>
+            </ul>
+        
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <hr class="style-seven  style-seven:before">
+<br>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel items">
+       <div class="item " style="margin-left: 300px; margin-top: 100px;">
+        
+        <img src="static/images/netscience.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle" style="margin-left: 150px; margin-top: 30px;">
+            Histogram for the <strong>Netscience Dataset</strong>  
+        </h2>
+      </div>
+      <div class="item " style=" margin-top: 50px; ">
+      
+        <img src="static/images/scca.png" alt="MY ALT TEXT" style="margin-left: 250px; margin-top: 50px;"/>
+        <h2 class="subtitle" style="margin-left: 450px; margin-top: 20px;">
+            Histogram for the <strong>SSCA Dataset </strong> 
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+<hr class="style-seven  style-seven:before">
+ <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Histogram for timing (Netscience Dataset)</h2>
+      <br>
+      <iframe  src="static/images/netscience_time.png" width="100%" height="550" style="margin-left: 20px;">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> 
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Histogram for timing (SSCA Dataset)</h2>
+        <br>
+        <iframe  src="static/images/scca_time.png" width="100%" height="350" style="margin-left: 20px;">
+            </iframe>
+          
+        </div>
+      </div>
+    </section> 
+  <hr class="style-seven  style-seven:before">
+   <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">System info:</h2>
+      <pre><code>Linux taanvi-HP-Laptop-15-hr0xxx 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux.
+      All the algorithms have been implemented on a computer with an Intel Core i5-13th Gen processor, 15 GB of RAM, running on Ubuntu 24.04 OS.
+      </code></pre>
+    </div>
+</section> 
+
+<hr class="style-seven  style-seven:before">
+
+  </body>
+  </html>
